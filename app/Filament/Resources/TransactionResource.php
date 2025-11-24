@@ -38,7 +38,7 @@ class TransactionResource extends Resource
                 Forms\Components\TextInput::make('amount')
                     ->required()
                     ->numeric(),
-                Forms\Components\TextArea::make('note')
+                Forms\Components\Textarea::make('note')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\FileUpload::make('image')
