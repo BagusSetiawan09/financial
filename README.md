@@ -16,7 +16,7 @@
 1. Clone the repository:
 
     ```bash
-    https://github.com/SeptiawanAjiP/laravel-filament-web-keuangan.git
+    git@github.com:BagusSetiawan09/financial.git
     ```
 
 2. Navigate to the project directory:
