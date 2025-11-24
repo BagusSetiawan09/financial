@@ -1,7 +1,4 @@
-# Dewakoding Laravel Filament Web Keuangan
-
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/laravel-filament-web-keuangan/master/image-1.png)
-![image](https://raw.githubusercontent.com/SeptiawanAjiP/laravel-filament-web-keuangan/master/image-2.png)
+# FINANCIAL MANAGEMENT
 
 ## Table of Contents
 
