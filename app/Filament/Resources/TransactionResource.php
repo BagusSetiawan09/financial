@@ -51,6 +51,8 @@ class TransactionResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\ImageColumn::make('image')
+                    ->label('Image'),
                 Tables\Columns\ImageColumn::make('category.image')
                     ->label('Kategori'),
                 Tables\Columns\TextColumn::make('category.name')
