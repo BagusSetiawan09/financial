@@ -57,6 +57,3 @@
 ### Usage
 
 Visit `http://localhost:8000`
-
-### To do
-(soon)
