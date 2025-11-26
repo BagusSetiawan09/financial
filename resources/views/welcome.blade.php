@@ -151,15 +151,15 @@
         font-size: 3rem;
       }
       .hero p {
-        font-size: 1.2rem;
+        font-size: 0.5rem;
         margin-bottom: 30px;
       }
       .btn {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 12px 35px;
       }
     .btn1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 12px 35px;
     }
     }
@@ -190,7 +190,7 @@
       <h2>FINANCIAL MANAGEMENT</h2>
       <p>Never wonder where your money went again. Track every income and expense easily to keep <br>your budget balanced and your mind at ease.</p>
       <a href="{{ url('/admin') }}" class="btn">Get Started</a>
-      <a href="https://github.com/BagusSetiawan09/financial" class="btn1" target="_blank">Visit GitHub</a> <!-- New GitHub button -->
+      <a href="https://github.com/BagusSetiawan09/financial" class="btn1" target="_blank">Visit GitHub</a>
     </div>
   </div>
 
