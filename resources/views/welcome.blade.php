@@ -189,7 +189,7 @@
       <span>Make managing your finances easier</span>
       <h2>FINANCIAL MANAGEMENT</h2>
       <p>Never wonder where your money went again. Track every income and expense easily to keep <br>your budget balanced and your mind at ease.</p>
-      <a href="http://127.0.0.1:8000/admin" class="btn">Get Started</a>
+      <a href="{{ url('/admin') }}" class="btn">Get Started</a>
       <a href="https://github.com/BagusSetiawan09/financial" class="btn1" target="_blank">Visit GitHub</a> <!-- New GitHub button -->
     </div>
   </div>
