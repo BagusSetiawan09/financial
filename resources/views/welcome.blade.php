@@ -102,6 +102,7 @@
     }
 
     .btn-primary {
+      border: 2px solid #005eff;
       background: #005eff;
       color: #fff;
     }
@@ -122,14 +123,76 @@
       }
     }
 
-    /* ===== RESPONSIVE ===== */
-    @media (max-width: 768px) {
-      .hero h2 {
-        font-size: 3rem;
-      }
-      .hero p {
-        font-size: 1rem;
-      }
+    /* Media queries for responsiveness */ /* Large screens (desktops) */ 
+    @media (min-width: 1200px) { 
+      .hero h2 { 
+        font-size: 5rem; 
+      } 
+      .hero p { 
+        font-size: 1.1rem; 
+      } 
+      .btn { 
+        font-size: 1rem; 
+      } 
+      .btn-primary { 
+        font-size: 1rem; 
+      } 
+    } 
+      
+    /* Medium screens (tablets) */ 
+    @media (min-width: 768px) and (max-width: 1199px) { 
+      .hero h2 { 
+        font-size: 4rem; 
+      } 
+      .hero p { 
+        font-size: 1.4rem; 
+      } 
+      .btn { 
+        font-size: 1.3rem; 
+      } 
+      .btn-primary { 
+        font-size: 1.3rem; 
+      } 
+    } 
+      
+    /* Small screens (mobile devices) */ 
+    @media (max-width: 767px) { 
+      .hero { 
+        height: auto; 
+        padding: 50px 20px; 
+      } 
+      .hero h2 { 
+        font-size: 3rem; 
+      } 
+      .hero p { 
+        font-size: 0.5rem; 
+        margin-bottom: 30px; 
+      } 
+      .btn { 
+        font-size: 1rem; 
+        padding: 12px 35px; 
+      } 
+      .btn-primary { 
+        font-size: 1rem; 
+        padding: 12px 35px; 
+      } 
+    } 
+    /* Extra small screens (very small mobile devices) */ 
+    @media (max-width: 480px) { 
+      .hero h2 { 
+        font-size: 2.5rem; 
+      } 
+      .hero p { 
+        font-size: 1rem; 
+      } 
+      .btn { 
+        font-size: 1rem; 
+        padding: 10px 30px; 
+      } 
+      .btn-primary { 
+        font-size: 1rem; 
+        padding: 10px 30px; 
+      } 
     }
   </style>
 </head>
