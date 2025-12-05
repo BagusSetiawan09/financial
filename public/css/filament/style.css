@@ -326,9 +326,6 @@ body {
   transform: translateY(0);
 }
 
-
-/* ---------- RESPONSIVE ---------- */
-
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     transition: none;
@@ -336,6 +333,8 @@ body {
     transform: none;
   }
 }
+
+/* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 1100px) {
   .hero-top {
@@ -356,12 +355,6 @@ body {
   .hero-right {
     padding: 0 20px;
   }
-}
-
-@media (max-width: 640px) {
-  .hero-title {
-    font-size: 36px;
-  }
 
   .hero-tagline {
     font-size: 12px;
@@ -371,8 +364,41 @@ body {
     flex-direction: column;
     gap: 12px;
   }
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .hero-tagline {
+    font-size: 10px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
 
   .btn {
     width: 100%;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cards-row {
+    flex-direction: column;
+  }
+
+  .card-chart,
+  .card-feature {
+    flex: 1;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 16px;
   }
 }
