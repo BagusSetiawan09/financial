@@ -311,6 +311,28 @@ body {
   margin-inline: auto;
 }
 
+/* ---------- ANIMASI REVEAL DARI BAWAH ---------- */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Respect prefers-reduced-motion: jangan animasi kalau user minta gerakan sedikit */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
 /* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 1100px) {

@@ -26,4 +26,27 @@ document.addEventListener("DOMContentLoaded", () => {
             showToast("Mulai kelola keuangan Anda sekarang.");
         });
     }
+
+    //  ANIMASI SLIDE-IN BOTTOM DENGAN INTERSECTION OBSERVER
+    const revealEls = document.querySelectorAll(".reveal");
+
+    // Kalau browser lama tidak support IO, langsung tampilkan tanpa animasi
+    if (!("IntersectionObserver" in window)) {
+        revealEls.forEach(el => el.classList.add("visible"));
+        return;
+    }
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                // Setelah kelihatan sekali, kita tidak perlu observe lagi
+                obs.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+
+    revealEls.forEach(el => observer.observe(el));
 });

@@ -1,5 +1,5 @@
 <!-- HERO TOP -->
-        <section class="hero-top">
+        <section class="hero-top reveal">
             <div class="hero-title-block">
                 <h1 class="hero-title">
                     <span>Financial</span>
@@ -28,9 +28,9 @@
         </section>
 
         <!-- 3 BENTO CARDS -->
-        <section class="cards-row">
+        <section class="cards-row reveal">
             <!-- CARD: CHART -->
-            <article class="card card-chart">
+            <article class="card card-chart reveal">
                 <div class="card-header">
                     <span class="card-title">Overview Statistics</span>
                 </div>
@@ -134,7 +134,7 @@
             </article>
 
             <!-- CARD: TRANSACTIONS -->
-            <article class="card card-feature">
+            <article class="card card-feature reveal">
                 <div>
                     <div class="card-icon">
                         <div class="card-icon-inner">
@@ -152,7 +152,7 @@
             </article>
 
             <!-- CARD: CATEGORY -->
-            <article class="card card-feature">
+            <article class="card card-feature reveal">
                 <div>
                     <div class="card-icon">
                         <div class="card-icon-inner">
