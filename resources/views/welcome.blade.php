@@ -2,7 +2,8 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8" />
-    <title>Financial Management</title>
+    <title>Financial Application – Financial Management Dashboard</title>
+    <meta name="description" content="Financial Application - kelola pemasukan dan pengeluaran Anda dengan mudah, pantau transaksi dan kategori pengeluaran dalam satu dashboard.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Google Font -->
@@ -16,7 +17,7 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
     />
-    
+
     <link rel="stylesheet" href="{{ asset('css/filament/style.css') }}">
 </head>
 <body>
@@ -32,6 +33,6 @@
     </section>
 </div>
 
-<script src="{{ asset('js/filament/script.js') }}"></script>
+<script src="{{ asset('js/filament/script.js') }}" defer></script>
 </body>
 </html>

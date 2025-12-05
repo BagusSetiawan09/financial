@@ -19,6 +19,7 @@
                     </a>
                     <a href="https://github.com/BagusSetiawan09/financial"
                        target="_blank"
+                       rel="noopener noreferrer"
                        class="btn btn-outline">
                         Visit Github
                     </a>
