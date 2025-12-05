@@ -325,15 +325,16 @@ body {
   transform: translateY(0);
 }
 
-/* Respect prefers-reduced-motion: jangan animasi kalau user minta gerakan sedikit */
-@media (prefers-reduced-motion: reduce)
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;
     transform: none;
     transition: none;
   }
-
-/* ---------- RESPONSIVE ---------- */
+}
 
 @media (max-width: 1100px) {
   .hero-top {
